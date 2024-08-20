@@ -130,6 +130,7 @@ a {
   position: fixed;
   bottom: 0;
   z-index: 1;
+  display: none;
 }
 
 .anya-fix-top {
@@ -138,8 +139,41 @@ a {
   right: 0;
   transform: rotate(-20deg);
   z-index: 1;
+  display: none;
 }
 
 marquee {
   z-index: -1;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  z-index: 99;
+}
+
+.popup-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.popup-btn button {
+  background-color: black;
+  border: none;
+  border-radius: 25px;
+  width: 100px;
+  height: 30px;
+  margin-top: 20px;
 }
