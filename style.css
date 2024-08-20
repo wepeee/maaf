@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+/* .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  } */
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0a8d0;
+}
+
+nav {
+  background-color: #f7b5ca;
+  color: #ffebd4;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.jumbotron {
+  background-image: url(src/anya-jumbotron.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+}
+
+.jumbotron button {
+  width: 200px;
+  height: 50px;
+  background-color: #f0a8d0;
+  border: 0px;
+  border-radius: 25px;
+  box-shadow: 2px 2px 20px rgba(240, 168, 208, 0.7);
+}
+
+.sub-container button {
+  display: block;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 200px;
+  height: 50px;
+  background-color: #ffc6c6;
+  border: 0px;
+  border-radius: 25px;
+  box-shadow: 2px 2px 20px rgba(240, 168, 208, 0.7);
+}
+
+.jumbotron h1 {
+  color: white;
+  font-size: 50px;
+  text-shadow: 2px 2px 50px 100px rgba(240, 168, 208, 1);
+}
+
+.container {
+  color: #464646;
+  width: 80%;
+  margin: auto;
+}
+
+.container img {
+  display: block;
+  margin: auto;
+}
+
+.sub-container {
+  color: #464646;
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+  height: 50vh;
+}
+.container p,
+.jumbotron p,
+.sub-container p,
+a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container h1,
+.jumbotron h1,
+.sub-container h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffebd4;
+}
+
+.anya-fix {
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+}
+
+.anya-fix-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  transform: rotate(-20deg);
+  z-index: 1;
+}
+
+marquee {
+  z-index: -1;
+}
